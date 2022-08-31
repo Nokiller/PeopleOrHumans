@@ -1,7 +1,4 @@
 fun main() {
     val likes = 32
-    if (likes % 10 == 1)
-        println("Понравилось $likes человеку")
-    else
-        println("Понравилось $likes людям")
+    val result = if (likes % 10 == 1) println("Понравилось $likes человеку") else println("Понравилось $likes людям")
 }
